@@ -1,0 +1,9 @@
+{
+  "name": "drupal/tmgmt_modernmt",
+  "description": "Translation Management Tool for ModernMT Translator",
+  "type": "drupal-module",
+  "license": "GPL-2.0+",
+  "require-dev": {
+    "drupal/tmgmt": "^1"
+  }
+}

@@ -1,0 +1,27 @@
+tmgmt.translator.settings.modernmt:
+  type: mapping
+  label: ModernMT Translator Settings
+  mapping:
+    api_key_id:
+      type: string
+      label: ModernMT API Key ID
+      description: The ID of the API key stored in the Key module.
+    translate_url:
+      type: string
+      label: Translation API URL
+      description: The endpoint for submitting translations.
+    validate_url:
+      type: string
+      label: Validation API URL
+      description: The endpoint for validating the API key.
+    domains:
+      type: mapping
+      label: Domains Configuration
+      description: Optional domain settings for specific languages.
+      mapping:
+        lang:
+          type: string
+          label: Language Code
+        domain:
+          type: string
+          label: Translation Domain

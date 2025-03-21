@@ -1,0 +1,4 @@
+api_key_id: ''
+translate_url: 'https://api.modernmt.com/translate'
+validate_url: 'https://api.modernmt.com/users/me'
+domains: {}

@@ -1,0 +1,10 @@
+name: ModernMT TMGMT
+description: Integrates ModernMT with TMGMT for translation management.
+package: 'Translation Management'
+type: module
+core_version_requirement: ^9 || ^10 || ^11
+
+dependencies:
+  - tmgmt:tmgmt
+  - key:key
+configure: entity.tmgmt_translator.collection
